@@ -29,7 +29,7 @@ namespace Досуг
         {
             DataLoaded ( );
         }
-        void DataLoaded ( )//Проебка с list
+        void DataLoaded ( )
         {
             ListEvents = Class.Helper.DB.Event.ToList ( );
             DataGridEvent.Rows.Clear ();
